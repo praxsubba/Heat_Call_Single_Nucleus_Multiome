@@ -2,7 +2,7 @@
 
 # Single-Nucleus Multiome Analysis: Complete and Annotated Workflow
 
-This repository provides a well-organized, thoroughly annotated, and reproducible R workflow for single-nucleus RNA-seq/ATAC-seq, and their integration using Seurat and Signac in heat call exposed embryos. The code is structured for clarity and ready for submission to GitHub as a supplement for publication in ______ [1][2][3].
+This repository provides a well-organized, thoroughly annotated, and reproducible R workflow for single-nucleus RNA-seq/ATAC-seq, and their integration using Seurat and Signac in heat call exposed embryos. The code is structured for clarity and ready for submission to GitHub as a supplement for publication in _____  [1][2][3].
 
 ---
 
