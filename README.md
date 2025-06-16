@@ -14,9 +14,7 @@ This repository provides a well-organized, thoroughly annotated, and reproducibl
    [https://satijalab.org/signac/][2]
 3. **JASPAR2020 Database**  
    [https://jaspar.genereg.net/][3]
-
 ---
-
 
 [1]: https://satijalab.org/seurat/  
 [2]: https://satijalab.org/signac/  
