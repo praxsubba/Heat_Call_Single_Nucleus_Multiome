@@ -415,21 +415,4 @@ Idents(combined_wnn) <- old_idents    # restore
 cat("Panel E saved.\n\n")
 
 
-################################################################################
-# 13. SAVE OUTPUT
-################################################################################
 
-saveRDS(combined_wnn, file.path(OUT_DIR, "04_combined_wnn_annotated.rds"))
-
-cat("========================================\n")
-cat("SCRIPT 04 COMPLETE\n")
-cat("========================================\n")
-cat("Nuclei annotated :", ncol(combined_wnn), "\n")
-cat("Cell types        : 13 (from annotation spreadsheet)\n")
-cat("WNN clusters      : 49\n\n")
-cat("Cell type counts:\n")
-print(sort(table(combined_wnn$cluster_annotation), decreasing = TRUE))
-
-writeLines(capture.output(sessionInfo()),
-           file.path(OUT_DIR, "session_info_04.txt"))
-cat("\nNext: Run 05_Differential_Gene_Expression.R\n")
