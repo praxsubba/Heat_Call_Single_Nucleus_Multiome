@@ -12,34 +12,6 @@ in R and designed to be run sequentially on an HPC cluster (SLURM).
 
 ---
 
-## Pipeline Overview
-Raw 10x Multiome data
-│
-▼
-01 RNA QC ──► 02 ATAC QC ──► 03 WNN Integration ──► 04 Cell Type Annotation
-│
-┌───────────────────────────────┤
-▼ ▼
-05 Differential Gene 06 Differential Chromatin
-Expression Accessibility
-│ │
-└──────────────┬────────────────┘
-▼
-07 Peak Annotation
-│
-┌──────────────┼──────────────┐
-▼ ▼ ▼
-08 ChromVAR 09 hdWGCNA 10 Cicero
-Motif Analysis Networks Chromatin Rewiring
-│
-┌────────────┴──────────────┐
-▼ ▼
-11 TF Regulatory 12 Pseudotime
-Network GRN Trajectory Analysis
-
-
----
-
 ## Scripts
 
 ### 01 · `01_RNA_QC_and_Processing.R`
