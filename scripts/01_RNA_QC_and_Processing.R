@@ -373,13 +373,4 @@ cat("Saved: 01_merged_seurat_filt.rds\n")
 cat("Next:  Run 02_ATAC_QC_and_Processing.R\n\n")
 
 
-################################################################################
-# SESSION INFO
-################################################################################
 
-writeLines(
-  capture.output(sessionInfo()),
-  file.path(OUT_DIR, "session_info_01.txt")
-)
-
-cat("Session info saved to:", file.path(OUT_DIR, "session_info_01.txt"), "\n")
