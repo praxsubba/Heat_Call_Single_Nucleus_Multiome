@@ -195,7 +195,7 @@ BiocManager::install(c("hdWGCNA", "WGCNA", "chromVAR",
 devtools::install_github("smorabit/hdWGCNA")
 devtools::install_github("cole-trapnell-lab/cicero-release",
                          ref = "monocle3")
-```
+```r
 
 Citation
 Subba P et al. (2026). Multiome Profiling Reveals Astrocyte and
