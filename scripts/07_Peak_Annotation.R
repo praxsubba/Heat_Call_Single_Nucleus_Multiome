@@ -502,4 +502,3 @@ cat("  FIGURES/AstroTop20HCgainedCoveragePlots.pdf\n")
 cat("  FIGURES/AstroHClostCoveragePlots.pdf\n\n")
 cat("Next: Run 08_ChromVAR_TF_Activity.R\n\n")
 
-
