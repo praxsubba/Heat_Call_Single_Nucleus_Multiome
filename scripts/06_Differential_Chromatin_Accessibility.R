@@ -748,7 +748,4 @@ saveRDS(
 cat("Saved: 06_combined_wnn_DA.rds\n")
 cat("Next:  Run 07_ChromVAR_TF_Activity.R\n\n")
 
-writeLines(
-  capture.output(sessionInfo()),
-  file.path(OUT_DIR, "session_info_06.txt")
-)
+
