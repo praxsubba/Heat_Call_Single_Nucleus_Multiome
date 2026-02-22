@@ -651,4 +651,8 @@ cat("  AstroDAgainedmotifenrichment.csv\n")
 cat("  FIGURES/DAgainedmotifenrichment.pdf\n\n")
 cat("Next: Run 09_Astrocyte_Rewiring.R\n\n")
 
+saveRDS(
+  astroobj,
+  file = file.path(OUT_DIR, "08_astroobj_chromvar.rds")
+)
 
