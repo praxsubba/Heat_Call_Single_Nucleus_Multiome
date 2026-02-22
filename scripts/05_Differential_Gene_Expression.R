@@ -669,7 +669,4 @@ saveRDS(
 cat("Object saved: 05_combined_wnn_DEG.rds\n")
 cat("Next: Run 06_Differential_Chromatin_Accessibility.R\n\n")
 
-writeLines(
-  capture.output(sessionInfo()),
-  file.path(OUT_DIR, "session_info_05.txt")
-)
+
