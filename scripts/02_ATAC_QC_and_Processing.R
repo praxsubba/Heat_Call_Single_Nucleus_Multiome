@@ -573,13 +573,3 @@ cat("       (requires both 01_merged_seurat_filt.rds and",
     "02_combined_atac_filt.rds)\n\n")
 
 
-################################################################################
-# SESSION INFO
-################################################################################
-
-writeLines(
-  capture.output(sessionInfo()),
-  file.path(OUT_DIR, "session_info_02.txt")
-)
-
-cat("Session info saved to:", file.path(OUT_DIR, "session_info_02.txt"), "\n")
